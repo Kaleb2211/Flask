@@ -1,5 +1,5 @@
 # NOMBRE:
-   Flask 
+   Lista de Tareas 
 
 # Descripción:
    Este es un proyecto de prueba para aprender un poco más sobre flask y
@@ -20,15 +20,18 @@ escribirle a Gmail “miralleskaleb@gmail.com”
    El proyecto está en constante crecimiento, un poco demorado pero se va a lograr terminarlo
 
 # COMO INSTALAR NGINX:
- * Primero actualizar los paketes de aplicaciones y despues instalazr NGINX  
-    $ sudo apt update
-    $ sudo apt install nginx
+ * Primero actualizar los paketes de aplicaciones y despues instalazr NGINX * 
+   
+    1. $ sudo apt update
+    2. $ sudo apt install nginx
 
- * Luego activar y comprobar su servidor web
-    $ systemctl start nginx 
-    $ systemctl status nginx
+ * Luego activar y comprobar su servidor web *
+    
+    1. $ systemctl start nginx 
+    2. $ systemctl status nginx
      
  * Configurar en la ruta etc/nginx/conf.d
+  
   **La configuracion esta en el repositorio "flask.conf"**
 
 
