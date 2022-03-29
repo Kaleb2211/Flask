@@ -32,7 +32,7 @@ escribirle a Gmail “miralleskaleb@gmail.com”
      
  * Configurar en la ruta etc/nginx/conf.d
   
-  **La configuracion esta en el repositorio "flask.conf"**
+    **La configuracion esta en el repositorio "flask.conf"**
 
 
 
