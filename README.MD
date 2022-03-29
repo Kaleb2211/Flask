@@ -49,7 +49,7 @@ escribirle a Gmail “miralleskaleb@gmail.com”
   # Renovar automáticamente los certificados de Let's Encrypt 
    * crontab -e
 
-   * escribir 0 12 * * * /usr/bin/certbot renew --quiet para que se generen automaticamente  
+   * escribir **0 12 * * * /usr/bin/certbot renew --quiet** para que se generen automaticamente  
 
 
 
