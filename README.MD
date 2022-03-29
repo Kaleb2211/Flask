@@ -29,13 +29,27 @@ escribirle a Gmail “miralleskaleb@gmail.com”
     
     1. $ systemctl start nginx 
     2. $ systemctl status nginx
-     
- * Configurar en la ruta etc/nginx/conf.d
+  
+   
+ # Como instalar el cliente de Let's Encrypt,**certbot**
+  * Descargar e instalar el cliente *
+   
+   1. $ apt-get update
+   2. $ sudo apt-get install certbot
+   3. $ apt-get install python3-certbot-nginx
+ 
+  * Configurar en la ruta etc/nginx/conf.d
   
     **La configuracion esta en el repositorio "flask.conf"**
+    
 
+  # Obtener el Certificado SSL/TLS 
+   * $ sudo certbot --nginx -d example.com
+   
+  # Renovar automáticamente los certificados de Let's Encrypt 
+   * crontab -e
 
-
+   * escribir 0 12 * * * /usr/bin/certbot renew --quiet para que se generen automaticamente  
 
 
 
